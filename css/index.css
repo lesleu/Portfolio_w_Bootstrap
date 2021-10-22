@@ -2,9 +2,9 @@
 .topNav {
     list-style: none;
     margin: 0px;
+    margin-top: 20px;
     padding: 0px;
-    padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     background-color: white;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
@@ -23,6 +23,24 @@
     display: inline-block;
     float: right;
     padding-right: 20px;
+}
+.topNavLeft a:link {
+    text-decoration: none;
+}
+.topNavRight a:link {
+    text-decoration: none;
+}
+.leftItem a:link {
+    text-decoration: none;
+}
+.subNav a:link {
+    text-decoration: none;
+}
+li a {
+    color: inherit;
+}
+a:hover {
+    color: inherit;
 }
 /* Page Layout Grid */
 .containerGrid {
@@ -49,6 +67,7 @@
     border-width: 0px 0px 0px 1px;
     padding-left: 15px;
     font-size: 14px;
+    color: black;
 }
 .subNav {
     list-style: none;
@@ -72,13 +91,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     outline: solid 1px blue;
 }
 h1 {
     text-align: center;
     font-size: 144px;
     font-weight: 700;
-    margin-left: 260px;
     width: 800px;
     line-height: 130px;
 }
@@ -95,29 +114,29 @@ p {
     outline: solid 1px red;
 }
 .caseStudies {
-    margin-left: 250px;
     margin-top: 0px;
     padding-top: 0px;
 }
 .projectItem {
     padding-top: 28px;
+    padding-left: 70px;
     width: 200px;
 }
 h2 {
     font-size: 56px;
-    margin-left: 320px;
     margin-top: 80px;
-    letter-spacing: 8px;
     font-weight: 700;
 }
 h3 {
     font-size: 32px;
-    padding-left: 60px;
     font-weight: 700;
 }
 h4 {
     font-size: 18px;
     font-weight: 300;
+}
+.projectList {
+    justify-content: center;
 }
 .projectTag {
     padding-top: 20px;
@@ -132,7 +151,6 @@ h4 {
     width: 925px;
     height: 348px;
     margin: 30px;
-    margin-left: 300px;
     border: 1px solid black;
 }
 /* Projects */
@@ -141,6 +159,35 @@ h4 {
 }
 .project3 {
     padding-bottom: 50px;
+}
+/* UI UX Scroll */
+.uScroll {
+    color: white;
+    font-size: 250px;
+    font-weight: 800;
+    width: 1500px;
+    line-height: 130px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    outline: 1px solid red;
+}
+
+/* About Me */
+.aboutMeNav {
+    margin-top: 5px;
+}
+.aboutNav {
+    padding-top: 82px;
+    padding-bottom: 32px;
+}
+.aboutMe {
+    height: 1000px;
+}
+.experience {
+    height: 1000px;
+}
+h5 {
+    font-size: 30px;
+    margin-top: 50px;
 }
 
 /* --- RWD --- */
@@ -214,16 +261,8 @@ h4 {
         display: none;
     }
 }
-/* UI UX Scroll */
-.uScroll {
-    color: white;
-    font-size: 250px;
-    font-weight: 800;
-    width: 1500px;
-    line-height: 130px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    outline: 1px solid red;
-}
+/* End RWD */
+
 /* Animations */
 @keyframes fadeIn {
     0% {
@@ -287,8 +326,13 @@ h4 {
 
 /* Interactions */
 .navHover {
-    font-size: 14px;
-    color: black;
-    font-weight: 800;
-    letter-spacing: 2px;
+    color: black !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.topNavHover {
+    font-weight: 600;
+}
+html {
+    scroll-behavior: smooth;
 }

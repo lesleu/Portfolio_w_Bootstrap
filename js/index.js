@@ -3,6 +3,16 @@ $ (".leftItem").hover (function(){
 }, function(){
     $(this).removeClass("navHover");
 });
+$ (".topNavLeft").hover (function(){
+    $(this).addClass("topNavHover");
+}, function(){
+    $(this).removeClass("topNavHover");
+});
+$ (".topNavRight").hover (function(){
+    $(this).addClass("topNavHover");
+}, function(){
+    $(this).removeClass("topNavHover");
+});
 
 const scrollOffset = 300;
 
