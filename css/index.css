@@ -209,22 +209,15 @@ h4 {
     margin-right: 500px;
 }
 .overview {
-    height: 1000px;
     padding-top: 80px;
 }
 .overviewImage {
     justify-content: center;
 }
-.branding {
-    height: 1000px;
-}
 .picture {
     border: 1px solid black;
     height: 800px;
     width: 500px;
-}
-.deliverables {
-    height: auto;
 }
 .before {
     margin: 5px;
@@ -252,6 +245,11 @@ h4 {
 }
 .flyers {
     margin: 5px;
+}
+.test {
+    height: 420px;
+    width: 950px;
+    border: 1px solid black;
 }
 
 /* About Me */
