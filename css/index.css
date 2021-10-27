@@ -231,8 +231,8 @@ h4 {
     margin: 10px;
     border: 1px solid black;
 }
-.consistentBrand {
-
+.branding {
+    margin-top: 100px;
 }
 .banner {
     margin: 5px;
@@ -247,8 +247,8 @@ h4 {
     margin: 5px;
 }
 .test {
-    height: 420px;
-    width: 950px;
+    height: 220px;
+    width: 350px;
     border: 1px solid black;
 }
 
