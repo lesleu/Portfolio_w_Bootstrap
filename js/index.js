@@ -21,6 +21,8 @@ $ (".projectBox").hover (function(){
 });
 
 
+
+
 const scrollOffset = 300;
 
 const scrollElements = document.querySelector(".textScroll");
