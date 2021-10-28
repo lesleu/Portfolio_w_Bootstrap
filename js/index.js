@@ -60,6 +60,8 @@ function onScroll(event){
     });
 }
 
+
+
 const scrollOffset = 300;
 
 const scrollElements = document.querySelector(".textScroll");
