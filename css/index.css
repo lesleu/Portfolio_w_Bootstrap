@@ -407,6 +407,11 @@ h5 {
 }
 
 /* Interactions */
+.active {
+    color: black !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
 .navHover {
     color: black !important;
     font-weight: 600;
