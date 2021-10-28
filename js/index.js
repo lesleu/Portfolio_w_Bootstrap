@@ -44,7 +44,6 @@ $(document).ready(function () {
         });
     });
 });
-
 function onScroll(event){
     var scrollPos = $(document).scrollTop();
     $('#menu-left a').each(function () {
@@ -59,6 +58,27 @@ function onScroll(event){
         }
     });
 }
+
+jQuery(document).ready(function($){
+
+    $('.project4').on({
+         'click': function(){
+             $('#change-video').attr('src','./vid/AAMF/AAMF_2021_Netsky_InstagramPost_1.mp4');
+         }
+     });
+     
+    $('.project5').on({
+         'click': function(){
+             $('#change-video').attr('src','./vid/AAMF/AAMF_2021_Wreckno_InstagramPost_1.mp4');
+         }
+     });
+     
+    $('.project6').on({
+         'click': function(){
+             $('#change-video').attr('src','./vid/AAMF/AAMF_2021_Rusko_InstagramPost_1.mp4');
+         }
+     });
+});
 
 
 
