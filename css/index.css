@@ -159,11 +159,13 @@ h4 {
     border: 1px solid black;
 }
 /* Projects */
-.project {
-    border-bottom: 1px solid black;
-}
 .project3 {
     padding-bottom: 50px;
+}
+button {
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: white;
 }
 /* UI UX Scroll */
 .uScroll {
