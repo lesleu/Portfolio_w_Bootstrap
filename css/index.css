@@ -115,17 +115,33 @@ p {
 }
 /* UI UX */
 .uiUX {
-    height: 1000px;
     outline: solid 1px red;
 }
+#uiUX {
+    height: 2500px;
+}
+#graphicMotion {
+    height: 2500px;
+}
+#digitalArt {
+    height: 2500px;
+}
+
+.headerStick {
+    position: sticky;
+    top: -1px;
+    background-color: white;
+    color: black;
+}
+
 .caseStudies {
     margin-top: 0px;
     padding-top: 0px;
 }
 .projectItem {
     padding-top: 28px;
-    padding-left: 70px;
     width: 200px;
+    text-align: start;
 }
 h2 {
     font-size: 56px;
@@ -142,6 +158,8 @@ h4 {
 }
 .projectList {
     justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .projectTag {
     padding-top: 20px;
@@ -153,8 +171,14 @@ h4 {
 
 /* Display Image */
 .displayImage {
-    width: 925px;
-    height: 348px;
+    width: 1033px;
+    height: 514px;
+    margin: 30px;
+    border: 1px solid black;
+}
+.displayAsteria {
+    width: 1033px;
+    height: 514px;
     margin: 30px;
     border: 1px solid black;
 }
